@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon">
     <title>HAPPY 28th MONTHSARY</title>
 </head>
 <style>
@@ -13,7 +14,7 @@
 
     body {
         font-family: 'Indie Flower', cursive !important;
-        background: #FDE3A7;
+        background: #ff68b4;
         margin: 0;
         padding: 0;
     }
@@ -29,11 +30,11 @@
     }
 
     .color1 {
-        color: #1BBC9B;
+        color: #ff54d7;
     }
 
     .color2 {
-        color: #C0392B;
+        color: #ff6ec5;
     }
 
     .card {
@@ -140,6 +141,15 @@
     .text-right {
         text-align: right;
     }
+
+    .pic{
+        width: 300px;
+    }
+
+    /* BUTTON */
+    .btn{
+        text-decoration: none;
+    }
   /* CSS for customizing text below the card */
         .text-below-card {
             font-size: 25px; /* Change the font size to your preference */
@@ -163,7 +173,7 @@
     <div class="card">
         <div class="imgBox">
             <div class="bark"></div>
-            <img src="cover1.jpg" alt="tenet slow">
+            <img src="cover1.jpg" class="pic" alt="tenet slow">
         </div>
         <div class="details">
             <h4 class="color1">HAPPY 28th Monsthsary</h4>
@@ -185,14 +195,13 @@
         </div>
           <div class="claim">
           <button>
-            <a href="flower.html" target="_blank">Claim me</a>
+            <a href="flower.html" target="blank" class="btn">Press Me</a>
         </button>
             <p class="text-right">Your lover,</p>
             <p class="text-right">Joel Navales♥</p>
 
         </div>
 
-      <button id="playButton">Click Me</button>
 
         <!-- Add the audio element without controls and set to autoplay -->
         <audio id="audioPlayer" autoplay loop>
